@@ -23,7 +23,7 @@ module Types
            title: "Illinois",
            proportion: 3.52}
         ],
-        industry_division: [
+        industries: [
           {premium: 301_881_574.51,
            title: "Mining",
            proportion: 45.48},
@@ -37,7 +37,7 @@ module Types
            title: "Retail",
            proportion: 3.38}
         ],
-        policy_type: [
+        products: [
           {premium: 282_431_219.91,
            title: "General Liability",
            proportion: 42.55},
@@ -84,7 +84,7 @@ module Types
            title: "Illinois",
            proportion: 4.70}
         ],
-        industry_division: [
+        industries: [
           {premium: 107_761_528.89,
            title: "Construction",
            proportion: 51.52},
@@ -98,7 +98,7 @@ module Types
            title: "Retail",
            proportion: 7.4}
         ],
-        policy_type: [
+        products: [
           {premium: 77_139_852.21,
            title: "Commercial Property",
            proportion: 36.88},

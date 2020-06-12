@@ -10,10 +10,10 @@ RSpec.describe "BrokerSnapshot", type: :request do
           brokerDivision {
             ...valueFields
           }
-          industryDivision {
+          industries {
             ...valueFields
           }
-          policyType {
+          products {
             ...valueFields
           }
           premiumRange {
@@ -24,10 +24,10 @@ RSpec.describe "BrokerSnapshot", type: :request do
           brokerDivision {
             ...valueFields
           }
-          industryDivision {
+          industries {
             ...valueFields
           }
-          policyType {
+          products {
             ...valueFields
           }
           premiumRange {
