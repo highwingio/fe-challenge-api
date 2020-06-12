@@ -38,16 +38,16 @@ module Types
            proportion: 3.38}
         ],
         policy_type: [
-          {premium: 100_000_000,
+          {premium: 282_431_219.91,
            title: "General Liability",
            proportion: 42.55},
-          {premium: 75_000_000,
+           {premium: 224_484_696.00,
            title: "Commercial Property",
            proportion: 33.82},
-          {premium: 50_000_000,
+          {premium: 120_207_506.29,
            title: "Workers Compensation",
            proportion: 18.11},
-          {premium: 25_000_000,
+          {premium: 36_639_725.82,
            title: "Excess Liability",
            proportion: 5.52}
         ],
@@ -71,18 +71,18 @@ module Types
     def carrier_snapshot_slice
       {
         broker_division: [
-          {premium: 100_000_000,
+          {premium: 98_485_192.00,
            title: "California",
-           proportion: 0.4},
-          {premium: 75_000_000,
+           proportion: 47.09},
+           {premium: 76_947_176.83,
            title: "New York",
-           proportion: 0.3},
-          {premium: 50_000_000,
+           proportion: 36.79},
+          {premium: 23_894_092.21,
            title: "Texas",
-           proportion: 0.2},
-          {premium: 25_000_000,
+           proportion: 11.42},
+          {premium: 9_837_997.22,
            title: "Illinois",
-           proportion: 0.1}
+           proportion: 4.70}
         ],
         industry_division: [
           {premium: 100_000_000,
