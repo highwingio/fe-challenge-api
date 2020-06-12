@@ -15,6 +15,11 @@ gem "bootsnap", ">= 1.4.2", require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
+gem "graphiql-rails"
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
+
 group :development, :test do
   gem "rspec-rails"
   gem "database_cleaner-active_record"
@@ -27,10 +32,6 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
-  gem "graphiql-rails"
-  gem 'sass-rails'
-  gem 'uglifier'
-  gem 'coffee-rails'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
